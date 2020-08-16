@@ -20,6 +20,10 @@ public class LinkedList<E> {
 			this.data = data;
 			this.next = next;
 		}
+		
+		public void setNext(LinkedListNode n) {
+			this.next = n;
+		}
 	}
 	
 	/**
